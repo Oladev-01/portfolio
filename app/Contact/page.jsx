@@ -48,9 +48,7 @@ const Contact = () => {
     // Email body
     const emailBody = `
       Name: ${formData.name}
-      Email: ${formData.email}
-      Phone: ${formData.phone}
-      
+      Phone: ${formData.phone}      
       Message:
       ${formData.message}
     `;
@@ -86,7 +84,7 @@ const Contact = () => {
               onChange={handleChange}
               required
             />
-            <input 
+            {/* <input 
               type="email" 
               name="email"
               placeholder="Enter your Email" 
@@ -94,7 +92,7 @@ const Contact = () => {
               value={formData.email} 
               onChange={handleChange}
               required
-            />
+            /> */}
           </div>
           
           <input 
