@@ -1,32 +1,24 @@
 import Image from "next/image";
-const  About = ()=>{
+const About = () => {
   return (
-<div className="w-full flex gap-2.5 mt-3.5 flex-col-reverse md:flex-row-reverse p-4">
+    <div className="w-full flex gap-2.5 mt-3.5 flex-col-reverse md:flex-row-reverse p-4">
 
-      <div className="w-[100%] flex justify-center content-center" >
-       <Image src="https://res.cloudinary.com/dlzjjxtsd/image/upload/v1747063271/IMG_0294_lx5c4w.jpg"
-             alt="hero"
-             width={300}
-             height={300}
-             className="w-[80%] h-[80%]"
-             />
-
-      </div>
-      <div className="w-[100%] flex-col gap-2" >
-      <span className="text-2xl font-semibold ">ABOUT ME</span>
-      <p className="opacity-75 leading-10 ">Hi, I'm Highbee — a passionate Front-End Developer with a mission to transform ideas into elegant, interactive digital experiences. I specialize in crafting responsive and performant user interfaces using modern tools like React, Next.js, and Tailwind CSS.
-
-Every line of code I write is driven by creativity, curiosity, and a deep love for building intuitive web solutions. From wireframes to production, I thrive on turning static designs into smooth, living web applications.
-
-When I’m not coding, I’m exploring the latest in design trends, learning new technologies, or sharpening my UI/UX sense. I believe in clean code, bold ideas, and collaboration that leads to impactful results.
-
-Let’s build something extraordinary together.</p>
-
+      <div className="w-[100%] flex justify-center content-center">
+        <Image
+          src="/images/profile.jpg"
+          alt="hero"
+          width={300}
+          height={300}
+          className="w-[80%] h-[80%] rounded-full object-cover"
+        />
       </div>
 
-
-
-
+      <div className="w-[100%] flex flex-col gap-4">
+        <span className="text-2xl font-semibold">ABOUT ME</span>
+        <p className="opacity-80 leading-normal">
+          I'm Mojibola Olalekan, a versatile and detail-driven Backend Developer with a strong foundation in both Python and JavaScript ecosystems. I specialize in building scalable, maintainable server-side systems using frameworks like Flask, Django, FastAPI, Node.js, and Express. My backend expertise is reinforced by robust database management skills with PostgreSQL, MongoDB, and Redis, enabling efficient data modeling and performance optimization. I'm adept at designing secure, RESTful APIs and integrating real-time features using WebSockets, including live communication layers for interactive applications. I’ve also worked on seamless payment gateway integrations and recently began incorporating AI technologies into backend workflows to enhance application intelligence. Beyond technical development, I’m committed to collaborative growth and giving back to the community. With an analytical mindset, adaptive learning, and a passion for solving real-world problems, I consistently deliver backend solutions that are secure, efficient, and aligned with business goals.
+        </p>
+      </div>
     </div>
   )
 }

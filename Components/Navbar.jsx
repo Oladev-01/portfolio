@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="w-full bg-slate-900 h-20 flex justify-between items-center  px-4  md:px-10 ">
       
       <div className="text-white w-auto text-[2rem] md:text[2rem] font-bold">
-       <h1>Highbee</h1> 
+       <h1>M.O</h1> 
       </div>
 
       {/* Desktop Menu */}

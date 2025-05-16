@@ -9,9 +9,9 @@ const Footer = () => {
       <div className="  flex flex-col justify-center items-center gap-7">
         
         <div className="  flex flex-col justify-center items-center gap-5  ">
-          <h2 className="text-2xl font-bold ">Highbee</h2>
+          <h2 className="text-2xl font-bold ">Mojibola Olalekan</h2>
           <p className="text-sm opacity-75">Do you have a project in mind and would love to bring it to live?</p>
-          <button className="  text-white bg-amber-500 p-2  font-semibold rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300 animate-bounce m-auto">
+          <button className="  text-white bg-blue-600 p-2  font-semibold rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300 animate-bounce m-auto">
   <a href="/Contact">Let's Talk</a>
 </button>
 
@@ -26,14 +26,14 @@ const Footer = () => {
 
         
         <div className="flex space-x-4 text-xl gap-6">
-          <a href="" target="_blank" rel="noopener noreferrer" className="hover:text-amber-500 transition">
+          <a href="https://github.com/Oladev-01" target="_blank" rel="noopener noreferrer" className="hover:text-amber-500 transition">
           <FaGithub />
           </a>
-          <a href="" target="_blank" rel="noopener noreferrer" className="hover:text-amber-500 transition">
+          <a href="https://wa.link/7wr13q" target="_blank" rel="noopener noreferrer" className="hover:text-amber-500 transition">
          
           <FaWhatsapp />
           </a>
-          <a href="mailto:ibrahimademola145@gmail.com" className="hover:text-amber-500 transition">
+          <a href="mailto:lekanmojibola@gmail.com" className="hover:text-amber-500 transition">
           
           <FaEnvelope />
           </a>
@@ -42,7 +42,7 @@ const Footer = () => {
 
 
       <div className="text-center mt-6 text-sm text-gray-400">
-        &copy; {new Date().getFullYear()} Highbee. All rights reserved.
+        &copy; {new Date().getFullYear()} Olalekan. All rights reserved.
       </div>
         
         
